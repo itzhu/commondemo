@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewpager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <quickly.common.me.customview.refresh.simple.SimpleRefreshView
+        android:id="@+id/refreshView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </quickly.common.me.customview.refresh.simple.SimpleRefreshView>
+
+    <quickly.common.me.customview.refresh.simple.SimpleRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/headerView">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/refreshRecycleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:clipToPadding="false"
+            android:scrollbars="vertical">
+
+        </android.support.v7.widget.RecyclerView>
+    </quickly.common.me.customview.refresh.simple.SimpleRefreshLayout>
+
+</FrameLayout>

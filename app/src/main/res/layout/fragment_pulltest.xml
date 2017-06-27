@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<quickly.common.me.customview.refresh.simple.RePullLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/repulllayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:gravity="center_horizontal"
+        android:padding="15dp"
+        android:text="pull view"
+        android:textColor="@color/white" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+    </android.support.v7.widget.RecyclerView>
+</quickly.common.me.customview.refresh.simple.RePullLayout>

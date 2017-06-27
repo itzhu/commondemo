@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/baui_back"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:paddingLeft="12dp"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:id="@+id/baui_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_title" />
+
+    <TextView
+        android:id="@+id/baui_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:paddingRight="12dp"
+        android:scaleType="fitCenter" />
+</merge>

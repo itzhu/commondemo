@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_footer"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:layout_alignParentBottom="true"
+    android:background="#000000"
+    android:gravity="top|center_horizontal"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_footer"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:padding="24dp"
+            android:src="@drawable/ic_refresh_up" />
+
+        <ProgressBar
+            android:id="@+id/pb_footer"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:padding="16dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_footer"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:gravity="center"
+        android:text="上拉加载更多"
+        android:textColor="#ffffff" />
+
+</LinearLayout>

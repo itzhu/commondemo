@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- toolbar 属性配置 -->
+    <dimen name="toolbar_height">48dp</dimen>
+
+
+    <!--  底部tab  配置 -->
+    <dimen name="tab_bottom_height">52dp</dimen>
+
+    <color name="tab_bottom_color_bg">#EEEEEE</color>
+    <color name="tab_bottom_text_color_select">@color/colorPrimary</color>
+    <color name="tab_bottom_text_color_normal">#999999</color>
+
+    <color name="tab_bottom_color_line">#909090</color>
+
+    <!-- 界面文字配置  -->
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="text_size_xmedium">18sp</dimen>
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+
+    <dimen name="text_size_a_title">15sp</dimen>
+    <dimen name="text_size_a_subtitle">13sp</dimen>
+
+
+    <!-- activity 界面配置 -->
+
+    <dimen name="padding_normal">16dp</dimen>
+
+    <dimen name="padding_micro">4dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">12dp</dimen>
+    <dimen name="padding_large">20dp</dimen>
+
+    <dimen name="margin_normal">16dp</dimen>
+
+    <dimen name="margin_micro">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_large">20dp</dimen>
+
+    <dimen name="ui_root_padding_left">16dp</dimen>
+    <dimen name="ui_root_padding_right">16dp</dimen>
+    <dimen name="ui_root_padding_top">16dp</dimen>
+    <dimen name="ui_root_padding_bottom">16dp</dimen>
+
+    <dimen name="ui_root_margin_left">16dp</dimen>
+    <dimen name="ui_root_margin_right">16dp</dimen>
+    <dimen name="ui_root_margin_top">16dp</dimen>
+    <dimen name="ui_root_margin_bottom">16dp</dimen>
+
+
+    <color name="text_color_normal">#666666</color>
+
+</resources>
